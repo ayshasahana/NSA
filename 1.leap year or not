@@ -20,3 +20,17 @@ echo "leap year"
 else
 echo "not leap year"
 fi 
+
+---------------------------------------------------------------------------------------------------------
+output
+------
+ksb@ksb-OptiPlex-3060:~/ayshas2/linuxlab$ vi leapyear.sh
+ksb@ksb-OptiPlex-3060:~/ayshas2/linuxlab$ sh leapyear.sh
+enter the year:
+2020
+is a leap year
+ksb@ksb-OptiPlex-3060:~/ayshas2/linuxlab$ sh leapyear.sh 2100
+is not a leap year
+ksb@ksb-OptiPlex-3060:~/ayshas2/linuxlab$ sh leapyear.sh 2100 3000
+syntax error is leapyear.sh..
+
